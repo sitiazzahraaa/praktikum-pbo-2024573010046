@@ -15,7 +15,8 @@ public class WhileLoopDemo {
             System.out.print("Tebak angka (1-10): ");
             tebakan = input.nextInt();
 
-            if (tebakan < angkaRahasia) {
+            if (tebakan < angkaRahasia) {5
+
                 System.out.println("Terlalu kecil!");
             } else if (tebakan > angkaRahasia) {
                 System.out.println("Terlalu besar!");
