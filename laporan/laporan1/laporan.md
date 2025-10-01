@@ -31,28 +31,28 @@ Langkah Praktikum
 
 #### Screenshoot Hasil
 Variabel Demo
-![Ss Hasil](laporan/laporan1/gambar/VariabelDemo.png)
+![Ss Hasil](gambar/VariabelDemo.png)
 
 Grade Demo
-![Ss Hasil](laporan/laporan1/gambar/GradeDemo.png)
+![Ss Hasil](gambar/GradeDemo.png)
 
 Input Output Demo
-![Ss Hasil](laporan/laporan1/gambar/InputOutputDemo.png)
+![Ss Hasil](gambar/InputOutputDemo.png)
 
 Menu Demo
-![Ss Hasil](laporan/laporan1/gambar/MenuDemo.png)
+![Ss Hasil](gambar/MenuDemo.png)
 
 Nested If Demo
-![Ss Hasil](laporan/laporan1/gambar/NestedIfDemo.png)
+![Ss Hasil](gambar/NestedIfDemo.png)
 
 Nested Loop Demo
-![Ss Hasil](laporan/laporan1/gambar/NestedLoopDemo.png)
+![Ss Hasil](gambar/NestedLoopDemo.png)
 
 For Loop Demo
-![Ss Hasil](laporan/laporan1/gambar/ForLoopDemo.png)
+![Ss Hasil](gambar/ForLoopDemo.png)
 
 While Loop Demo
-![Ss Hasil](laporan/laporan1/gambar/WhileLoopDemo.png)
+![Ss Hasil](gambar/WhileLoopDemo.png)
 
 #### Analisa dan Pembahasan
 ## a. VariabelDemo.java
