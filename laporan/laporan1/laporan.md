@@ -290,6 +290,7 @@ Contoh: membuat class Mahasiswa untuk program nilai, atau class Game untuk tebak
 Efisiensi dan Reusability
 Program bisa menggunakan struktur perulangan dan method agar tidak terjadi pengulangan kode yang sama.
 Dengan begitu, kode lebih ringkas dan mudah dibaca.
+
 ---
 
 ## 5. Referensi
