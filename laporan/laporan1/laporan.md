@@ -7,12 +7,53 @@
 ---
 
 ## 1. Abstrak
-Tuliskan ringkasan singkat tentang isi laporan ini dan tujuan Anda membuat laporan.
+Ringkasan
+Laporan praktikum ini membahas penerapan konsep dasar pemrograman Java melalui serangkaian percobaan yang meliputi penggunaan input-output dengan kelas Scanner, struktur kendali percabangan (if, else-if, switch-case, nested if), serta struktur perulangan (for, while, do-while). Setiap program yang dibuat dirancang untuk menyelesaikan permasalahan sederhana, seperti menghitung luas bangun datar, menentukan kategori umur, menampilkan tabel perkalian, hingga membuat permainan tebak angka.
+Dengan praktikum ini, mahasiswa diharapkan mampu memahami cara kerja logika pemrograman dan mengimplementasikan algoritma dasar ke dalam bentuk kode Java yang terstruktur, mudah dipahami, serta dapat dijalankan sesuai kebutuhan.
+
+Tujuan
+Tujuan dari penyusunan laporan ini adalah:
+Menjelaskan hasil praktikum pemrograman Java secara sistematis dan terstruktur.
+Melatih keterampilan mahasiswa dalam memahami konsep dasar pemrograman, khususnya percabangan, perulangan, dan input-output.
+Memberikan dokumentasi tertulis yang dapat digunakan sebagai bahan evaluasi maupun referensi di masa mendatang.
+Mengembangkan kemampuan analisis logika serta penerapan algoritma dalam penyelesaian permasalahan sederhana menggunakan bahasa Java.
 
 ---
 ## 2. Praktikum
 ### Praktikum 1 - Variabel dan Tipe Data
 #### Dasar Teori
+1. Variabel
+
+Variabel adalah sebuah nama simbolik yang digunakan untuk menyimpan data dalam memori komputer. Variabel berfungsi sebagai wadah yang nilainya dapat digunakan dan diubah selama program berjalan. Dalam Java, setiap variabel memiliki tiga komponen utama, yaitu nama variabel, tipe data, dan nilai.
+
+Aturan penulisan variabel antara lain:
+Nama variabel tidak boleh diawali dengan angka.
+Hanya boleh terdiri dari huruf, angka, dan garis bawah (_).
+Bersifat case-sensitive, sehingga huruf besar dan huruf kecil dianggap berbeda.
+Harus diawali dengan huruf atau garis bawah (_).
+Variabel sangat penting karena memungkinkan programmer menyimpan informasi yang akan diproses lebih lanjut, misalnya menyimpan angka, teks, maupun nilai logika.
+
+2. Tipe Data
+
+Tipe data adalah jenis data yang menentukan nilai apa saja yang dapat disimpan dalam suatu variabel serta operasi apa saja yang dapat dilakukan terhadapnya. Dalam bahasa Java, tipe data dibagi menjadi dua kategori utama, yaitu:
+Tipe Data Primitif
+
+Tipe data dasar yang sudah disediakan oleh bahasa Java dan bukan merupakan objek. Beberapa contoh tipe data primitif antara lain:
+byte : untuk bilangan bulat kecil.
+short : untuk bilangan bulat dengan rentang lebih besar dari byte.
+int : tipe data bilangan bulat yang paling sering digunakan.
+long : untuk bilangan bulat yang sangat besar.
+float : untuk bilangan pecahan dengan presisi sederhana.
+double : untuk bilangan pecahan dengan presisi ganda.
+char : untuk menyimpan satu karakter tunggal.
+boolean : untuk menyimpan nilai logika, yaitu true atau false.
+
+Tipe Data Non-Primitif (Referensi/Objek)
+Tipe data yang merupakan objek dari suatu class. Tipe data ini lebih kompleks dibandingkan tipe primitif. Contohnya adalah:
+String, yang digunakan untuk menyimpan teks atau kumpulan karakter.
+Array, yang digunakan untuk menyimpan sekumpulan data dengan tipe yang sama.
+Objek atau class yang dibuat sendiri oleh programmer.
+Tipe data berfungsi untuk membatasi nilai apa yang dapat dimasukkan ke dalam variabel dan bagaimana data tersebut dapat diproses. Dengan adanya tipe data, program menjadi lebih terstruktur, jelas, dan aman dari kesalahan penggunaan data.
 
 #### Langkah Praktikum
 1. buatlah file baru dengan nama VariabelDemo.java
@@ -36,6 +77,11 @@ kemudian dilakukan casting ke int dalam baris int nilaiInt = (int) nilaidouble.
 
 Proses menjumlahkan byte dan short var
 ### Praktikum 2 - Input, Output, Dan Scanner
+Dalam pemrograman, input adalah data yang dimasukkan oleh pengguna ke dalam program, sedangkan output adalah hasil atau informasi yang ditampilkan kembali oleh program kepada pengguna. Input dan output menjadi komponen penting karena memungkinkan adanya interaksi antara pengguna dan program.
+
+Pada Java, proses input biasanya menggunakan kelas Scanner yang disediakan dalam paket java.util. Scanner digunakan untuk membaca berbagai jenis data dari pengguna, seperti teks, bilangan bulat, bilangan desimal, maupun nilai logika. Dengan adanya Scanner, program dapat menerima data dari keyboard secara lebih fleksibel.
+
+Output pada Java umumnya ditampilkan ke layar menggunakan perintah cetak standar. Hal ini memungkinkan hasil pengolahan data ditunjukkan kepada pengguna dengan format yang jelas.
 #### Dasar Teori
 Untuk membaca input dari pengguna dalam Java, kita menggunakan class Scanner yang terdapat dalam package java.util.
 Scanner menyediakan berbagai method untuk membaca berbagai tipe data:
@@ -64,7 +110,19 @@ Secara keseluruhan, program ini sudah baik sebagai latihan dasar untuk memahami 
 
 ### Praktikum 3 - Struktur Control:Percabangan
 #### Dasar Teori
-Struktur kontrol percabangan digunakan untuk membuat keputusan dalam program. Java menyediakan beberapa statement percabangan:
+Struktur kontrol percabangan adalah mekanisme dalam pemrograman yang digunakan untuk membuat keputusan berdasarkan suatu kondisi tertentu. Dengan percabangan, program dapat memilih jalur eksekusi yang berbeda sesuai dengan syarat atau kondisi yang diberikan.
+
+Jenis-jenis percabangan yang umum digunakan dalam Java antara lain:
+
+If-Else, digunakan untuk mengeksekusi perintah jika kondisi bernilai benar (true), dan alternatif lain jika kondisi bernilai salah (false).
+
+Else-If, digunakan ketika terdapat lebih dari satu kondisi yang harus diperiksa secara berurutan.
+
+Nested If, yaitu percabangan bersarang di dalam percabangan lain untuk kondisi yang lebih kompleks.
+
+Switch-Case, digunakan untuk memilih salah satu dari banyak pilihan berdasarkan nilai tertentu.
+
+Struktur percabangan ini membantu program menjadi lebih dinamis karena dapat menyesuaikan hasil eksekusi dengan kondisi yang berbeda-beda.
 #### Langkah Praktikum
 langkah 1: program penentu grade
 1. buat file dengan nama GradeDemo.java
@@ -167,6 +225,17 @@ Program NestedIfDemo berhasil menunjukkan penggunaan percabangan if-else if dala
 
 ### Praktikum 4 - Struktur Control : Perulangan
 #### Dasar Teori
+Struktur kontrol perulangan adalah mekanisme yang memungkinkan program menjalankan suatu perintah atau blok kode secara berulang, selama kondisi tertentu masih terpenuhi. Perulangan digunakan untuk mengurangi pengulangan manual dalam penulisan kode, sehingga program menjadi lebih efisien dan ringkas.
+
+Jenis-jenis perulangan dalam Java antara lain:
+
+For Loop, digunakan ketika jumlah perulangan sudah diketahui dengan pasti.
+
+While Loop, digunakan untuk perulangan yang bergantung pada kondisi logika; perulangan berhenti ketika kondisi tidak lagi terpenuhi.
+
+Do-While Loop, mirip dengan While Loop, tetapi menjamin bahwa blok kode dijalankan setidaknya satu kali sebelum memeriksa kondisi.
+
+Dengan struktur perulangan, programmer dapat memproses data dalam jumlah banyak, menampilkan urutan nilai, atau menjalankan algoritma yang membutuhkan eksekusi berulang dengan cara yang lebih sederhana dan terstruktur.
 #### Langkah Praktikum
 langkah 1 : perulangan for
 1. buatlah file baru dengan nama ForLoopDemo.java
